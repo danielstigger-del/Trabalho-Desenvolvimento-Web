@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Online</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+
+    <div id="header">
+
+        <div id="logo">
+            <h1><span class="white">Currículo Online</span></h1>
+        </div>
+        <!-- menu acessível em qualquer página -->
+        <div id="menu">
+            <a href="index.html">Sobre mim</a>
+            <a href="formação.html">Formação</a>
+            <a href="portifólio.html">Portifólio</a>
+            <a href="contato.html">Contato</a>
+        </div>
+
+    </div>
+    <div id="content">
+
+        <div id="posts">
+
+    <div class="form-container">
+    <h2>Contato</h2>
+    
+    <!-- Mensagem de sucesso oculta inicialmente -->
+    <div id="successMessage" class="hidden">
+        <p>✅ Mensagem enviada com sucesso!</p>
+    </div>
+
+    <form id="contactForm">
+        <div class="form-group">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        </div>
+    </div>
+        <button type="submit">Enviar</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+        <div id="footer">
+            Todos os direitos reservados - Daniel Stigger
+        </div>
+</body>
+</html>
